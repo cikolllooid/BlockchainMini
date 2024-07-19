@@ -4594,16 +4594,23 @@ dependencies = [
 name = "solanachik"
 version = "0.1.0"
 dependencies = [
+ "borsh 0.9.3",
+ "borsh-derive 0.10.3",
  "hex",
  "indicatif",
+ "rand 0.8.5",
+ "ring 0.17.8",
  "serde",
  "serde_derive",
  "serde_json",
  "sha2 0.10.8",
+ "solana-client",
  "solana-program",
  "solana-program-test",
  "solana-sdk",
+ "subtle",
  "time",
+ "uuid",
 ]
 
 [[package]]
@@ -5509,6 +5516,12 @@ name = "utf-8"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09cc8ee72d2a9becf2f2febe0205bbed8fc6615b7cb429ad062dc7b7ddd036a9"
+
+[[package]]
+name = "uuid"
+version = "1.9.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5de17fd2f7da591098415cff336e12965a28061ddace43b59cb3c430179c9439"
 
 [[package]]
 name = "valuable"

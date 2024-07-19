@@ -1,4 +1,5 @@
 /target
+/~
 
 # Byte-compiled / optimized / DLL files
 myPy/__pycache__/
